@@ -1,0 +1,14 @@
+server:
+  port: 8092   # metadata service port
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kernelx
+    username: kernelx
+    password: kernelx
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
